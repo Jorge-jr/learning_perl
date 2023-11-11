@@ -8,7 +8,6 @@ sub selection_sort{
 
     for my $i (0..$#sequence-1) {
         my $smallest = $i;
-
         for my $j ($i+1..$#sequence) {
             $smallest = $j if $sequence[$j] < $sequence[$smallest];
         }
