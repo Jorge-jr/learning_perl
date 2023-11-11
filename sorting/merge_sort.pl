@@ -22,7 +22,7 @@ sub merge {
     return @result;
 }
 
-sub merge_sort{
+sub merge_sort {
     my @array = @_;
     if (scalar(@array) == 1) {
         return @array;
